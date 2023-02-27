@@ -1,6 +1,6 @@
 # curseforgeLookup
 
-This script can be used in conjunction with a manifest.json file to lookup the categories of any mod in a modpack. 
+This script can be used in conjunction with a manifest.json file to lookup the categories of all mods in a modpack. 
 
 To obtain a manifest.json file, follow these steps:
 
