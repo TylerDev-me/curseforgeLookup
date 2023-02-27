@@ -10,7 +10,7 @@ To obtain a manifest.json file, follow these steps:
 
 Use of this project will require the use of a Curseforge API Key, which can be obtained here: [link](https://console.curseforge.com/#/api-keys)
 
-### Usage Instructions:
+## Usage Instructions:
 
 - Copy config-example.json and rename it to config.json, replacing the placeholder text with your API key.
 - Run `yarn install` and wait for dependencies to be installed.
