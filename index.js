@@ -1,6 +1,6 @@
 const { Curseforge } = require("node-curseforge");
 const fs = require("fs");
-const { curseforgeApiKey } = require("config/config.json");
+const { curseforgeApiKey } = require("./config/config.json");
 
 let cf = new Curseforge(curseforgeApiKey);
 
