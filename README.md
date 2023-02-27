@@ -14,7 +14,7 @@ Use of this project will require the use of a Curseforge API Key, which can be o
 
 - Copy config-example.json and rename it to config.json, replacing the placeholder text with your API key.
 - Run `yarn install` and wait for dependencies to be installed.
-- Upon entering `yarn run start` or `npm start`, the program will perform a lookup on the mods and create a mods.csv file that will display the following
+- Upon entering `yarn run start` or `npm start`, the program will perform a lookup on the mods and create a mods.csv file that will display the following:
   - Name of the mod
   - All the categories assocciated with the mod
 
