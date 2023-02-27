@@ -1,13 +1,12 @@
 const { Curseforge } = require("node-curseforge");
 const fs = require("fs");
 const { curseforgeApiKey } = require("./config.json");
-let { filePath } = require("./config.json");
 
 let cf = new Curseforge(curseforgeApiKey);
 
 let mods = [];
 
-let manifest = require(filePath);
+let manifest = require("./manifest.json");
 let projectIds = manifest.files.map((file) => file.projectID);
 
 // get the latest file for each project id
